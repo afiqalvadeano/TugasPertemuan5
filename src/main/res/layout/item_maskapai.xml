@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    android:elevation="4dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginRight="10pt"/>
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="262dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img1"
+            android:layout_toRightOf="@id/img1"
+
+            android:layout_marginTop="-84dp"
+            android:text="Header Text"
+            android:textColor="#000"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/img1"
+            android:text="Kepoin"
+            android:layout_below="@+id/t1" />
+        <Button
+            android:id="@+id/btn_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/btn"
+            android:text="Share"
+            android:layout_below="@+id/t1"
+            />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

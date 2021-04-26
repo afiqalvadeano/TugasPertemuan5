@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PhoneFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Telfon Admin Website"
+            android:textSize="20sp"
+            android:layout_marginBottom="0sp"
+            android:textColor="@color/black"
+            />
+        <EditText
+            android:id="@+id/telp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="081234556789"
+            android:textColor="@color/black"
+            />
+        <Button
+            android:id="@+id/btnCall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/lightblue"
+            android:textColor="@color/white"
+            android:text="Call"/>
+    </LinearLayout>
+
+</FrameLayout>
